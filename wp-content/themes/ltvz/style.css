@@ -1,0 +1,508 @@
+/*
+Theme Name: va_ltvz
+Theme URI: http://altavoz.telemedellin.tv
+Description: 
+Version: 1
+Author: Victor Arias
+Author URI: http://altavoz.telemedellin.tv
+Tags: 
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+a
+{
+	color: #FFF;
+}
+a:hover
+{
+	color: #AFAFAF;
+}
+body
+{
+	background: #000;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body > footer
+{
+	background: #e31a13;
+	border: thin solid #d31812;
+	color: #FFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1;
+	margin-bottom: 3px;
+	padding: 12px; 
+	text-align: center;
+}
+body > footer small
+{
+	display: block;
+	color: #DDD;
+	font-size: 12px;
+	margin-top: 5px;
+}
+body > header 
+{
+	background: #fff url(images/trama_v1.jpg) repeat;
+	overflow: hidden;
+}
+body > header h1
+{
+	left: -250px;
+	margin: 0;
+	position: relative;
+}
+body > header h1 a
+{
+	height: 208px;
+	width: 686px;
+}
+body > header .apoyan
+{
+	margin-top: 69px;
+	min-height: 140px;
+}
+body > header h1 a, 
+body > header .apoyan a
+{
+	display: block;
+}
+body > header .apoyan a
+{
+	float: right;
+	max-height: 113px;
+	margin-left: 20px;
+	width: 140px;
+}
+body > header .apoyan .telemedellin
+{
+	margin: 60px 0 0 20px;
+}
+body > header .apoyan .altavoztv
+{
+	margin: 0;
+}
+
+/**body > header .container-fluid .img-responsive
+{
+	width: 100%;
+}**/
+.sociales-home h4
+{
+	background: #e31a13;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 0;
+	padding: 8px;
+}
+
+#content
+{
+	margin-bottom: 20px;
+}
+#horarios th, 
+#horarios td
+{
+	border: 0;
+}
+#horarios th
+{
+	background: #4c4c4c;
+	border-bottom: 8px solid #292929;
+	border-right: 10px solid #292929;
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 10px;
+	padding: 15px 0;
+	text-align: center;
+}
+#horarios td
+{
+	background: #fff;
+	border-bottom: 8px solid #292929;
+	border-right: 10px solid #292929;
+	font-size: 16px;
+}
+#horarios tr:hover td
+{
+	background: #d3d3d3;
+}
+#horarios td:first-child
+{
+	text-align: center;
+}
+#horarios td a
+{
+	color: #000;
+}
+#horarios td a:hover
+{
+	text-decoration: none;
+}
+#horarios, 
+#listado, 
+#single
+{
+	margin-top: 70px;
+}
+#horarios h1, 
+#listado h1
+{
+	font-family: 'Exo', sans-serif;
+	text-transform: uppercase;
+}
+#listado .post
+{
+	margin: 12px 0 13px;
+	min-height: 195px;
+}
+#listado .post > a
+{
+	display: block;
+}
+#listado .post h1
+{
+	background: rgba(0, 0, 0, .75);
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 8px 5px;
+	position: absolute;
+	width: 189px;
+	z-index: 5;
+}
+#listado .post a:hover
+{
+	color: #FFF;
+}
+#listado .post a:hover h1
+{
+	background: #000;
+	opacity: 1;
+}
+#listado .post a:hover .entry-thumbnail
+{
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+#listado .post img
+{
+	height: auto;
+	width: 100%;
+}
+#listado .post p
+{
+	background: #e31a13;
+	bottom: 0;
+	float: right;
+	font-size: 12px;
+	margin: 0;
+	padding: 5px 13px;
+	position: absolute;
+	right: 15px;
+}
+#main-content
+{
+	background: #292929;
+	overflow: hidden;
+}
+.home #main-content
+{
+	background: none;
+}
+#share
+{
+	background: #000;
+	left: 0;
+	overflow: hidden;
+	padding: 10px 5px; 
+	position: absolute;
+	width: 100%;
+}
+#share .bottomcontainerBox
+{
+	float: right;
+	width: auto;
+}
+#sidebar #menu-icon
+{
+	cursor: pointer;
+	text-align: center;
+	width:100%;
+}
+#sidebar .menu
+{
+	padding: 0;
+}
+#sidebar .menu li
+{
+	list-style: none;
+}
+#sidebar .menu > li > a,
+#sidebar #menu-icon
+{
+	background: #AC0404;
+	color: #FFF;
+	display: block;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 2px;
+	padding: 20px 0 20px 30px;
+	text-transform: uppercase;
+}
+#sidebar .menu > li > a:hover,
+#sidebar #menu-icon:hover, 
+#sidebar .menu > li.current-category-parent > a, 
+#sidebar .menu > li.current-menu-parent > a, 
+#sidebar .menu > li.current-menu-item > a
+{
+	background: #494949;
+	text-decoration: none;
+}
+#sidebar .sub-menu
+{
+	/*display: none;*/
+	padding-left: 20px;
+}
+#sidebar .current-menu-parent .sub-menu,
+#sidebar .current-post-ancestor .sub-menu, 
+#sidebar .menu > li:hover > .sub-menu
+{
+	/*display: block;*/
+}
+#sidebar .sub-menu > li > a
+{
+	background: #fff;
+	color: #000;
+	display: block;
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 2px;
+	padding: 8px 0 8px 12px;
+}
+#sidebar .sub-menu > li.current-menu-item > a, 
+#sidebar .sub-menu > li.current-post-ancestor > a
+{
+	background: #e31a13;
+	color: #fff;
+}
+#sidebar .sub-menu > li > a:hover
+{
+	background: #d3d3d3;
+	text-decoration: none;
+}
+#sidebar .widget
+{
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+#single h1
+{
+	font-family: 'Exo', sans-serif;
+	font-size: 37px;
+}
+#single h2, 
+#listado h2
+{
+	background: #e31a13;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	font-weight: 800;
+	padding: 8px 20px;
+}
+#single .content img
+{
+	background: #fff;
+	height: auto;
+	padding: 7px 5px;
+	width: 100%;
+}
+#single .category-galerias .content img
+{
+	padding: 0;
+	width: auto;
+}
+#single .category-galerias .enlaces
+{
+	display: none;
+}
+#single .content .ui-tabs-nav
+{
+	background: #000;
+	overflow: hidden;
+	margin: 0 -15px;
+	padding: 0 15px;
+}
+#single .content .ui-state-default
+{
+	float: left;
+	list-style: none;
+}
+#single .content .ui-state-active, 
+#single .content .ui-state-hover
+{
+	font-weight: bold;	
+}
+#single .content .ui-state-active a, 
+#single .content .ui-tabs-nav a:focus
+{
+	background: #292929;
+	color: #fff;
+	outline: none;
+	text-decoration: none;
+}
+#single .content .ui-state-hover a
+{
+	background: #e31a13;
+	color: #fff;
+	text-decoration: none;
+}
+#single .content .ui-tabs-nav a
+{
+	display: block;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	padding: 10px 25px;
+}
+#single .enlaces a 
+{
+	display: block;
+	padding: 15px 0 15px 90px;
+}
+#single .enlaces a:hover
+{
+	text-decoration: none;
+}
+#single .enlaces a.web
+{
+	background: url(images/web.png) no-repeat 30px center;
+}
+#single .enlaces a.facebook
+{
+	background: url(images/fb.png) no-repeat 30px center;
+}
+#single .enlaces a.twitter
+{
+	background: url(images/tw.png) no-repeat 30px center;
+}
+#single .enlaces a.myspace
+{
+	background: url(images/myspace.png) no-repeat 30px center;
+}
+#single .enlaces a.youtube
+{
+	background: url(images/youtube.png) no-repeat 30px center;
+}
+#single .enlaces a.reverbnation
+{
+	background: url(images/rn.png) no-repeat 30px center;
+}
+#single .enlaces a.lastfm
+{
+	background: url(images/fm.png) no-repeat 30px center;
+}
+#single .enlaces a.soundcloud
+{
+	background: url(images/soundcloud.png) no-repeat 30px center;
+}
+#single .meta
+{
+	color: #bdbdbd;
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+#single .post
+{
+	padding-bottom: 25px;
+}
+
+@media (max-width: 1200px){
+	#listado .post
+	{
+		min-height: 161px;
+	}
+	#listado .post h1
+	{
+		width: 152px;
+	}
+	#listado .post p
+	{
+		right: 15px;
+	}
+	#sidebar .menu > li > a
+	{
+		font-size: 16px;
+		padding: 15px 0 15px 20px;
+	}
+}
+@media (max-width: 992px){
+	body > header .apoyan {
+		margin-top: 115px;
+		min-height: 94px;
+	}
+	body > header .apoyan a
+	{
+		margin-left: 15px;
+		width: 85px;
+	}
+	body > header .apoyan .telemedellin {
+		margin: 37px 0 0 15px;
+	}
+	#listado .post h1 {
+		width: 158px;
+	}
+	#sidebar .menu > li > a
+	{
+		font-size: 13px;
+		padding: 15px 0 15px 10px;
+	}
+	#sidebar .sub-menu
+	{
+		padding-left: 10px;
+	}
+}
+@media (max-width: 768px){
+	body > header .apoyan
+	{
+		float: left;
+		margin-top: 0;
+	}
+	body > header .apoyan a
+	{
+		margin-left: 20px;
+	}
+	body.home .widget
+	{
+		width: 90%;
+	}
+	#listado .post h1 {
+		width: 88%;
+	}
+	#main-content
+	{
+		padding-top: 1px;
+	}
+}
+@media (max-width: 570px){
+	.col-xxs-6
+	{
+		width: 50%;
+	}
+	#listado .post
+	{
+		min-width: 177px;
+	}
+}

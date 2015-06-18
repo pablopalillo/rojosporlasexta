@@ -1,0 +1,15 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /rojos-por-la-sexta/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /rojos-por-la-sexta/index.php [L]
+</IfModule>
+
+# END WordPress
+
+RewriteCond %{HTTP_HOST} ^altavoz\.telemedellin\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.altavoz\.telemedellin\.com$
+RewriteRule ^/?$ "http\:\/\/altavoz\.telemedellin\.tv" [R=301,L]

@@ -1,0 +1,1 @@
+[13-Oct-2014 17:08:48 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/med2018/public_html/altavoz/wp-content/themes/twentythirteen/404.php on line 19

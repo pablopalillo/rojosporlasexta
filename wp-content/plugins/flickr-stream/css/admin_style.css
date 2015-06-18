@@ -1,0 +1,158 @@
+/*ADMIN CSS*/
+#flickrstream_widget_controls label{
+	display: block;
+}
+
+#flickrstream_widget_controls label.inline{
+	display: inline-block;
+}
+
+#flickrstream_widget_controls select, #flickrstream_widget_controls input[type='text']{
+	width: 225px;
+}
+
+#flickrstream_widget_controls .toggleOptions{
+	margin-top: 15px;
+}
+
+#fsFormBox .updated p{
+	font-weight: bold;
+}
+
+#flickrstream_main_opts input[type='text'], #flickrstream_main_opts select{
+	width: 300px;
+}
+
+.fsFormBox{
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+
+.fsTopformBox{
+	margin-top: 15px;
+}
+
+.fsFormBox label{
+	width: 220px;
+	display: inline-block;
+}
+
+.fsFormBox p{
+	margin: 20px 0;
+}
+
+.fsFormBox .fsHint{
+	display: block;
+	margin-left: 226px;
+	font-style: italic; 
+	margin-top: 2px;
+}
+
+.fsFormBox li{
+	list-style-type: square;
+	line-height: 1.7em;
+}
+
+.fsFormBox ul{
+	margin-left: 15px;
+	font-size: 13px;
+}
+
+.fsFormBox .fsCancel{
+	color: #f00;
+	text-decoration: underline;
+	margin-left: 15px;
+	padding: 2px 3px;
+	font-size: 12px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.fsFormBox .fsCancel:hover{
+	background-color: #f00;
+	color: #fff;
+}
+
+.fsBlock{
+	display: block;
+}
+
+.fsPostBox{
+	font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif; 
+	font-size: 15px;
+	font-weight: normal;
+	padding: 7px 10px;
+	margin: 0; 
+	line-height: 1em;
+	cursor: default!important;
+}
+
+.fsLinkButton{
+	border: 0; 
+	font-size: 12px; 
+	background-color: transparent; 
+	padding: 0; 
+	margin: 5px 0;
+	color: #21759b;
+	display: block;
+	line-height: 1.6em;
+}
+
+.fsLinkButton:hover{
+	color: #d54e21;
+	cursor: pointer;
+}
+
+.fsTable{
+	line-height: 1.6em;
+}
+
+#icon-flickr-stream{
+	background-image: url('flickrstream_icon.png');
+}
+
+#fsMastHead{
+	margin-bottom: 10px;
+}
+
+#flickrstream_widgetbox a img:hover, .flickrstream-embed img:hover{
+	background-color: #397fdf;
+}
+
+.flickrstream-embed img{
+	margin: 5px;
+	border-radius: 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #ccc; 
+	padding: 5px;
+}
+
+.flickrstream-embed img.medtbm{
+	height: 150px;
+	width: 150px;
+}
+
+.flickrstream-embed img.smltbm{
+	height: 75px;
+	width: 75px;
+}
+
+.fsSetTitle{
+	text-align: left; 
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.fs-errorbar{
+	background-color: #a80000 ;
+	color: #fff;
+	padding: 5px;
+	margin: 15px 0;  
+	font-size: 14px;
+	border-radius: 5px;
+	border: 2px solid #680000;
+	text-transform: uppercase;
+}
